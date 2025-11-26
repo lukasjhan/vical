@@ -1,0 +1,29 @@
+{
+  "name": "vical-parser",
+  "version": "1.0.0",
+  "description": "VICAL (Verified Issuer Certificate Authority List) parser for ISO/IEC 18013-5 mDL",
+  "main": "dist/parser.js",
+  "types": "dist/parser.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "example": "ts-node src/example.ts",
+    "test": "ts-node src/test.ts"
+  },
+  "keywords": [
+    "vical",
+    "mdl",
+    "mobile-driving-license",
+    "iso-18013",
+    "cbor",
+    "cose"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "cbor-x": "^1.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "ts-node": "^10.9.0",
+    "typescript": "^5.0.0"
+  }
+}
